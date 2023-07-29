@@ -1,3 +1,5 @@
+
+
 .banner{
     display: flex;
    list-style: none;
@@ -8,12 +10,11 @@
 .banner-3{
     list-style: none;
     display: flex;
-    justify-content: space-between;
     border-radius: 10px;
     background: rgba(11, 2, 35, 0.10);
-    height: 30px;
     gap: 5px;
-    margin-left: 5px;
+    position:relative;
+    top:10;
 }
 .gamer-zone{
  width: 900px;
@@ -51,7 +52,7 @@ line-height: normal;
     padding: 15px;
     align-items: flex-start;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
     
 }
     
@@ -81,36 +82,58 @@ gap: 25px;
 margin-left: 30px;
 }
 
-.title-4 :hover{
-    play
+.image-div {
+    display:flex;
+    gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+
+.img{
+    display: block;
+    margin-top: 260px;
+    margin-left: -350px;
+
+
 }
 .title-5{
     display: flex;
     text-align: center;
     margin-top: 20px;
     gap: 250px;
-    background: #FFF
+    margin-bottom: 20px;
 }
 .div-1{
     justify-content: space-between;
     margin-top: 120px;
+    margin-left: 150px;
+    font-size: larger;
+    font-style: oblique;
 }
 .title-6{
-    
-    background: #FFF
-
-    }
+    display: grid;    
+    grid-template-columns: repeat(10,1fr);
+    gap: 30px;
+    margin:100px;
+    padding: 50px;
+}
+.title-6-p{
+    margin-left:-50px;
+}
 
 .title-7{
     background-color:cornflowerblue;
-    margin-top: 20px;
+    height:120px ;
+    padding: 120px;
+    padding-top: 40px;      
 }
 .div-2{
  display: flex;
  justify-content: center;
- font-size: larger;
-font-size: larger;
-list-style-type: none;
+  font-size: larger;
+  list-style-type: none;
+
 } 
 
 .div-3{
@@ -135,4 +158,8 @@ list-style-type: none;
     font-size: larger;
     gap: 30px;
     margin-top: 10px;
+}
+.div-6{
+    font-size: larger;
+    text-align: center;
 }
