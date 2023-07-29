@@ -1,0 +1,138 @@
+.banner{
+    display: flex;
+   list-style: none;
+   margin-top: 10px;
+   justify-content: space-between;
+   gap: 10px;
+}
+.banner-3{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: rgba(11, 2, 35, 0.10);
+    height: 30px;
+    gap: 5px;
+    margin-left: 5px;
+}
+.gamer-zone{
+ width: 900px;
+ color: #0B0223;
+font-family: Work Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.title-1{
+   display: flex;
+   text-align: justify;
+   justify-content: space-between;
+   background: #FFF
+}
+
+.goat{
+    color:black;
+    margin-left: 250px;
+    margin-top: 100px;
+    font-size: 25px;
+   
+}
+.go{
+    font-size: 50px;
+}
+.play{
+    font-size:30px;
+}
+.button{
+    border-radius: 28px;
+    background:rgb(81, 60, 144);
+    display: inline-flex;
+    padding: 15px;
+    align-items: flex-start;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+    
+.title-2{
+    display: flex;
+    margin-top: 20px;
+    background:cornflowerblue;
+    gap: 50px;
+
+}
+.title-2-div{
+
+    margin-top: 130px;
+}
+.title-3{
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+    font-size: larger;
+    margin: 20px;
+}
+.title-4{
+
+display: flex;
+height: 350px;
+gap: 25px;
+margin-left: 30px;
+}
+
+.title-4 :hover{
+    play
+}
+.title-5{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    gap: 250px;
+    background: #FFF
+}
+.div-1{
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.title-6{
+    
+    background: #FFF
+
+    }
+
+.title-7{
+    background-color:cornflowerblue;
+    margin-top: 20px;
+}
+.div-2{
+ display: flex;
+ justify-content: center;
+ font-size: larger;
+font-size: larger;
+list-style-type: none;
+} 
+
+.div-3{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+.div-4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    
+
+}
+.div-5{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: larger;
+    gap: 30px;
+    margin-top: 10px;
+}
