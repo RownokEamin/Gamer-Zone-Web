@@ -60,15 +60,20 @@ margin-left: -550px;
    margin-left: 45px;
    margin-top: -35px;   
 }
-.button{
-    border-radius: 28px;
-    background:rgb(81, 60, 144);
+.button-1{
+    border-radius: 30px;
     display: inline-flex;
     padding: 15px;
     align-items: flex-start;
-    -webkit-background-clip: text;
-    
-    
+    background-color:cornflowerblue;
+      
+}
+.button-2{
+    border-radius: 30px;
+    display: inline-flex;
+    padding: 15px;
+    align-items: flex-start;
+    background-color: grey;
 }
 .nd-banner{
       padding-right: 80px;
@@ -189,5 +194,6 @@ margin-left: 30px;
     text-align: center;
 }
 @media screen and (max-width:600px){
-    
+ .banner{
+           
 }
